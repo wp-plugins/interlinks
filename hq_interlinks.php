@@ -3,7 +3,7 @@
 Plugin Name: Interlinks
 Plugin URI: http://www.harleyquine.com/php-scripts/interlinks/
 Description: Make internal links in your blog simply by putting [[ and ]] (wikistyle) around the post title.
-Version: 2.0
+Version: 2.7
 Author: Harley Quine
 Author URI: http://www.harleyquine.com
 */
@@ -48,7 +48,7 @@ function hq_interparse($content){
                                  $new_val = preg_replace('/\[\[(.+?)/', '$1', $pieces[0]);
                                  $link_text = preg_replace('/(.+?)\]\]/', '$1', $pieces[1]);
                                  $post_id = hq_interreplace($new_val);
-                                 if($post_id == 0){ $content2 = "<span style='color:red;'>$val</span>"; }
+                                 if($post_id == 0){ $content2 = "<span style='color:red;'>$new_val</span>"; }
                                  $permalink = get_permalink($post_id);
                                  if($post_id){ $content2 = "<a href='$permalink'>$link_text</a>"; }
                                  $content = str_replace($val, $content2, $content);

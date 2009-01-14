@@ -3,7 +3,7 @@ Contributors: harleyquinedotcom, outlyernet
 Donate link: http://www.harleyquine.com/
 Tags: plugin, linking, wiki
 Requires at least: ALL
-Tested up to: 2.6
+Tested up to: 2.7
 Stable tag: trunk
 
 Wikistyle links in your WordPress blog.
@@ -12,7 +12,7 @@ Wikistyle links in your WordPress blog.
 
 Create internal Wiki-style links in your WordPress blog. Easy to use and once you've started you won't be able to live without it. Simply put [[ and ]] around a post title and it will link to the post in your blog. Also supports [[Post Title|This is a link to a post]] style tags.
 
-This newest version fixes a bug with apostrophes in post titles. It also allows the more complicated linking style.
+This newest version fixes a bug with the complicated links where it displays Array in red instead of the post title.
 
 == Installation ==
 
@@ -37,4 +37,4 @@ From the plugins page on http://www.harleyquine.com.
 
 == Upgrading ==
 
-Simply delete the old one, upload and activate. Note that the file name has changed so delete kd_interlinks.php and upload hq-interlinks.php.
+Simply delete the old one, upload and activate.
