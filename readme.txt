@@ -1,9 +1,9 @@
 === Interlinks ===
-Contributors: harleyquinedotcom, outlyernet
-Donate link: http://www.harleyquine.com/
+Contributors: harleyquinedotcom
+Donate link: http://www.harleyquine.com/code/interlinks
 Tags: plugin, linking, wiki
 Requires at least: ALL
-Tested up to: 2.7
+Tested up to: 2.9.1
 Stable tag: trunk
 
 Wikistyle links in your WordPress blog.
@@ -12,12 +12,10 @@ Wikistyle links in your WordPress blog.
 
 Create internal Wiki-style links in your WordPress blog. Easy to use and once you've started you won't be able to live without it. Simply put [[ and ]] around a post title and it will link to the post in your blog. Also supports [[Post Title|This is a link to a post]] style tags.
 
-This newest version fixes a bug with the complicated links where it displays Array in red instead of the post title.
-
 == Installation ==
 
-1. Upload `hq-interlinks.php` to the `/wp-content/plugins/` directory
-1. Activate the plugin through the 'Plugins' menu in WordPress
+1. Upload `hq-interlinks.php` to the `/wp-content/plugins/` directory or automatically install from the dashboard.
+1. Activate the plugin through the 'Plugins' menu in the WordPress Dashboard.
 
 == Frequently Asked Questions ==
 
@@ -31,10 +29,9 @@ From the plugins page on http://www.harleyquine.com.
 
 == Screenshots ==
 
-1. Automatic ad placement locations.
-2. The config page.
-3. The author advertising user page.
+1. How it looks on the editor site.
+2. The post with links. Link one is red because the page doesn't exist.
 
 == Upgrading ==
 
-Simply delete the old one, upload and activate.
+Simply delete the old one, upload and activate or automatically through WordPress.

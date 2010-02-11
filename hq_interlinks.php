@@ -1,14 +1,14 @@
 <?php
 /*
 Plugin Name: Interlinks
-Plugin URI: http://www.harleyquine.com/php-scripts/interlinks/
+Plugin URI: http://www.harleyquine.com/code/interlinks
 Description: Make internal links in your blog simply by putting [[ and ]] (wikistyle) around the post title.
-Version: 2.7
+Version: 2.9.1
 Author: Harley Quine
 Author URI: http://www.harleyquine.com
 */
 
-/*  Copyright 2008  Lisa-Marie Welsh  (email : harley@harleyquine.com)
+/*  Copyright 2010  Lisa-Marie Welsh  (email : harley@harleyquine.com)
 
     This program is free software; you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
