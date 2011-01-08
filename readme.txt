@@ -1,9 +1,9 @@
 === Interlinks ===
 Contributors: harleyquinedotcom
-Donate link: http://www.harleyquine.com/code/interlinks
+Donate link: http://www.craftycoding.com
 Tags: plugin, linking, wiki
 Requires at least: ALL
-Tested up to: 2.9.1
+Tested up to: 3.0.4
 Stable tag: trunk
 
 Wikistyle links in your WordPress blog.
@@ -25,7 +25,19 @@ Simply put [[ and ]] around a post title within your post or excerpt and Interli
 
 = Where can I get more information? =
 
-From the plugins page on http://www.harleyquine.com.
+From the plugins page on http://www.craftycoding.com.
+
+= Where can I find the settings for Interlinks? =
+
+The settings are in your Dashboard -> Settings -> Reading page.
+
+= Where can I get more information about Interlinks? =
+
+From the plugin page at http://www.craftycoding.com/products/wordpress-plugins/interlinks/.
+
+= Can I have this plugin customised? =
+
+Yes you can. Crafty Coding is a professional web design and development company, meaning you can hire us for just about anything including customisation of our plugins.
 
 == Screenshots ==
 
